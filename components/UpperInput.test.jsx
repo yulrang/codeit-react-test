@@ -6,7 +6,7 @@ test("sets the value to the upper version of the value", async () => {
   // Arrange UpperInput 컴포넌트를 렌더링합니다.
   render(<UpperInput />);
   // input 요소를 찾습니다.
-  const upperInput: HTMLInputElement = screen.getByLabelText(/upper/i);
+  const upperInput = screen.getByLabelText(/upper/i);
 
   // Act input 요소에 "stuff"를 입력합니다.
   fireEvent.change(upperInput, { target: { value: "stuff" } });

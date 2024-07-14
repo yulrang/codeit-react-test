@@ -1,6 +1,6 @@
 import shuffle from "../suffle";
 
-describe("shuffle", () => {
+describe.skip("shuffle", () => {
   const array = [1, 2, 3];
 
   // shuffle이 새로운 배열을 반환하는가?

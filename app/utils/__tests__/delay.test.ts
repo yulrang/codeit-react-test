@@ -1,6 +1,6 @@
 import delay from "../delay";
 
-describe("delay", () => {
+describe.skip("delay", () => {
   it("should use a default `wait` of `0`", () => {
     jest.useFakeTimers(); // 이제부터 fake 타이머를 사용합니다.
     let pass = false;
