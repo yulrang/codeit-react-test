@@ -1,5 +1,5 @@
 
-import { fakeApiCall } from '../utils/fetchApiCall';
+import { fakeApiCall } from '../app/utils/fetchApiCall';
 
 test('the data is peanut butter', () => {
     return fakeApiCall().then(data => {
