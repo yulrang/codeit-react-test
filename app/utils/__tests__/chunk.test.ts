@@ -1,4 +1,4 @@
-import { chunk } from "../app/utils/chunk";
+import { chunk } from "../chunk";
 
 describe("chunk", () => {
     const array = [0, 1, 2, 3, 4, 5];
