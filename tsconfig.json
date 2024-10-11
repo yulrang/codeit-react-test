@@ -33,6 +33,6 @@
     "**/*.tsx",
     "types.d.ts",
     ".next/types/**/*.ts"
-  ],
+, "components/AxiosMock.test.jsx"  ],
   "exclude": ["node_modules"]
 }

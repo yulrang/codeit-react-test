@@ -1,9 +1,10 @@
-import UpperInput from "@/components/UpperInput";
+import Login from "@/components/Login";
+
 
 export const metadata = {
   title: "App Router",
 };
 
 export default function Page() {
-  return <UpperInput />;
+  return <Login />;
 }
