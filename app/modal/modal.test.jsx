@@ -45,7 +45,6 @@ describe("ModalPage", () => {
       expect(modal).not.toBeInTheDocument();
       expect(handleClose).toHaveBeenCalled();
     })
-    // test
   })
   
 })
