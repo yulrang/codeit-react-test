@@ -29,7 +29,7 @@ jobs:
         with:
           webhook-url: ${{ secrets.DISCORD }}
           content: |
-            **PR 테스트 결과**
+            **테스트 결과**
             Repository: ${{ github.repository }}
             Branch: ${{ github.head_ref }}
             Commit: [${{ github.sha }}](${{ github.event.pull_request.html_url }})
