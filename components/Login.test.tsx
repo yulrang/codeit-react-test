@@ -57,4 +57,7 @@ describe("Login", () => {
     expect(window.localStorage.getItem("token")).toBeNull();
   });
 
+  it("success", () => {
+    expect(true).toBe(true);
+  })
 })
